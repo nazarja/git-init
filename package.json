@@ -1,0 +1,34 @@
+{
+  "name": "git-init",
+  "version": "1.0.0",
+  "description": "A command line program to create both a remote and local git repository",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "Git",
+    "CLI"
+  ],
+  "author": "Sean Murphy",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/auth-token": "^2.5.0",
+    "@octokit/request": "^5.6.3",
+    "@octokit/rest": "^18.12.0",
+    "chalk": "^5.0.1",
+    "clear": "^0.1.0",
+    "clui": "^0.3.6",
+    "configstore": "^6.0.0",
+    "figlet": "^1.5.2",
+    "inquirer": "^8.2.2",
+    "lodash": "^4.17.21",
+    "request": "^2.88.2",
+    "simple-git": "^3.5.0",
+    "touch": "^3.1.0"
+  },
+  "type": "module",
+  "bin": {
+    "git-init": "./index.js"
+  }
+}
