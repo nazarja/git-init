@@ -2,14 +2,6 @@
 
 #### A command line program to create both a remote and local git repository
 
-## Requirements
-- node and npm installed
-- git installed and configured
-- a github account with a username and personal access token 
-
->Learn how to set up a personal access token:
-https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
-
 ## Usage
 - open a terminal in package root directory 
 - install package globaly with npm, `npm install -g`
@@ -25,5 +17,22 @@ https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/c
 - creates a .gitignore file and allows selection of files to ignore before creation
 - creates a local git repository
 - pushes the first commit containing only the `.gitignore` file
+
+## Requirements
+- node and npm installed
+- git installed and configured
+- a github account with a username and personal access token 
+
+> To install node, if on linux or mac, NVM is highly recommended  
+https://nodejs.org/en/download/  
+https://github.com/nvm-sh/nvm  
+
+> To configure git you may need to add some details:    
+`git config --global user.name "Your Name"`  
+`git config --global user.email "your_email@example.com"`
+
+> Learn how to set up a personal access token:  
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+
 
 #### Enjoy :)
