@@ -6,9 +6,9 @@
 - download/clone/unzip package
 - open a terminal in package root directory 
 - install package globaly with npm, `npm install -g`
-- `cd` to directory of chosen folder to make a repository
+- `cd` to directory of chosen folder to make a repository in
 - enter global command `git-init`
-- follow the onscreen prompts until the program has completes
+- follow the onscreen prompts until the program completes
 - After, you can simply `add, commit and push` as normal to your remote repo
 
 ## Features
