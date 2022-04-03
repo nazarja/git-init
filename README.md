@@ -3,9 +3,10 @@
 #### A command line program to create both a remote and local git repository
 
 ## Usage
+- download/clone/unzip package
 - open a terminal in package root directory 
 - install package globaly with npm, `npm install -g`
-- `cd` to directory of folder to make a repository
+- `cd` to directory of chosen folder to make a repository
 - enter global command `git-init`
 - follow the onscreen prompts until the program has completes
 - After, you can simply `add, commit and push` as normal to your remote repo
