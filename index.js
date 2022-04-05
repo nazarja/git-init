@@ -22,8 +22,17 @@ import repo from './lib/repo.js';
     };
 
     const getGithubToken = async () => {
-        let token = github.getStoredGithubToken();
-        if (!token) token = await github.createGithubToken();
+        const args = process.argv;
+        let token;
+        
+        if (args.length > 2 && args[2] === '--reset') {
+            token = await github.createGithubToken();
+        }
+        else {
+            token = github.getStoredGithubToken();
+            if (!token) token = await github.createGithubToken();
+        }; 
+
         return github.getGithubAuthToken(token);
     };
 
