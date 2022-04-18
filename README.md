@@ -10,6 +10,7 @@
 - enter global command `git-init`
 - follow the onscreen prompts until the program completes
 - After, you can simply `add, commit and push` as normal to your remote repo
+- If you need to reset your github token, add the flag `--reset`
 
 ## Features
 - authenticates using your github personal access token,  
